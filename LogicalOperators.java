@@ -1,19 +1,10 @@
 public class LogicalOperators {
-    public static void main(Sting[] args){
+    public static void main(String[] args){
         // AND 
-        System.out.println(false&&false);
-        System.out.println(false&&true);
-        System.out.println(true&&false);
-        System.out.println(true&&true);
-        //OR
-        System.out.println(false||false);
-        System.out.println(false||true);
-        System.out.println(true||false);
-        System.out.println(true||true);
-        //NOT
-        System.out.println(false!false);
-        System.out.println(false!true);
-        System.out.println(true!false);
-        System.out.println(true!true);
+        int a,b;
+        a=10;
+        b=10;
+        System.out.println(a>10 && b>10);
+      
     }
 }
