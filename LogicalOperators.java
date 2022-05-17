@@ -5,6 +5,7 @@ public class LogicalOperators {
         a=10;
         b=10;
         System.out.println(a>10 && b>10);
-      
+        System.out.println(a>10 || b>10);
+        System.out.println(!(a>b));
     }
 }
