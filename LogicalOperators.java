@@ -3,11 +3,11 @@ public class LogicalOperators {
         int a,b;
         a=10;
         b=10;
-        // AND
+        //AND
         System.out.println(a>10 && b>10);
-        // OR
+        //OR
         System.out.println(a>10 || b>10);
-        // NOT
+        //NOT
         System.out.println(!(a>b));
     }
 }
