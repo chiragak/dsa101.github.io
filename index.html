@@ -8,7 +8,11 @@
     <style>
         body{
             margin: 0%;
-        }
+            background-image: radial-gradient(#000000 1px, transparent 1px);
+            background-size: 32px 32px;
+            background-color: #ffffff;
+            }
+
         header
         {
             border-bottom: 1px solid #ccc;
@@ -49,6 +53,27 @@
         padding: 15px 30px;
        
         }
+        .lesson-detail
+        {
+            justify-content: center;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+        .icon
+        {
+            height: 200px;
+            width: 25%;
+            background-color: red;
+            display: flex;
+            float: left;
+        }
+        .content
+        {
+
+            height: 200px;
+            width: 100%;
+            background-color: yellow;
+        }
 
     </style>
 </head>
@@ -65,8 +90,34 @@
       </div>
       <div class="main-card">
         
-        <h1 class="lesson-title">TABLE OF CONTENTS</h1>    
-      </div>
+        <h1 class="lesson-title">TABLE OF CONTENTS</h1> 
+        <ol>
+            <li>
+                <div class="lesson-detail"> 
+                <div class="icon">
+
+                </div>
+                <div class="content">
+
+                </div>
+                </div>
+            </li>  
+
+            <li>
+                <div class="lesson-detail"> 
+                <div class="icon">
+
+                </div>
+                <div class="content">
+
+                </div>
+                </div>
+            </li>  
+
+        </ol> 
+        
+    
+        </div>
       
 </body>
 </html>
