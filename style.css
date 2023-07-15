@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    background-image: radial-gradient(#000000 1px, transparent 1px);
+    background-size: 32px 32px;
+    background-color: #ffffff;
+    }
+.main-card
+{
+position: relative;
+max-width: 900px;
+padding: 10px 40px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+background-color: red;
+border-radius: 5px;
+margin: 40px auto 45px;
+}
+
+.lesson
+{
+    position: relative;
+max-width: 900px;
+padding: 10px 40px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+background-color: yellow;
+border-radius: 5px;
+margin: 30px 1%;   
+}
+
+
+header
+{
+    border-bottom: 1px solid #ccc;
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+}
+.navbar
+{
+    padding: 0%;
+}
+ul{
+    text-decoration: none;
+}
+
+.courseinfo {
+display: flex;
+top: 0px;
+width: 100%;
+min-height: 280px;
+background-color: green;
+}
+
+
+.lesson-title {
+font-size: 20px;
+padding: 15px 30px;
+
+}
+.lesson-detail
+{
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.icon
+{
+    height: 200px;
+    width: 25%;
+    background-color: red;
+    display: flex;
+    float: left;
+}
+.content
+{
+
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+}
+.outer-card
+{
+    color: yellow;
+    position: relative;
+    margin-top: 10%;
+    margin: 10% 1%;
+    border-radius: 3px;
+    background-color: red;
+    padding: 4px 0%;
+    
+}
