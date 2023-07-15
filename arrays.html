@@ -5,20 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+  <style>
+     /* pre[class*=language-] {
+    padding: 0 2em;
+    overflow: auto;
+} */
+.language-java
+{
+  border-radius: 22px;
+  /* border-bottom: 5px solid black; */
+}
+
+  </style>
+
     <title>Problem Solving in Java</title>
 
 </head>
 <body>
     <header class="navbar">
-          <ul>
-            <li><a href="/">Home</a></li>
-            
-            <li><a href="/contact">Contact</a></li>
-          </ul>
+          
       </header>
       
      <div class="outer-card">
-        <h1>Arrays</h1>
-     </div>
+        <h1 class="outer-heading">Arrays</h1>
+        <div class="inner-card">
+          <p>Let's hop into our first paradigm of databases, NoSQL databases. The term "NoSQL" is definitely a buzzword and actually doesn't really mean much. When you say NoSQL, you're basically saying it's just not a relational database. This can get even more fuzzy when you realize that some NoSQL databases can handle SQL queries. All-in-all, it's a barely-useful marketing term that I put in here just because you'll see it everywhere.</p>
+
+          <pre><code class="language-java">public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
+}</code></pre>
+          
+
+
+        </div>     
+    </div>
 </body>
 </html>
