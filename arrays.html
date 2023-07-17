@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
   <style>
+    .language-java {
+      border-radius: 22px;
 
-.language-java
-{
-  border-radius: 22px;
-  
-}
-
+    }
   </style>
 
-    <title>Problem Solving in Java</title>
+  <title>Problem Solving in Java</title>
 
 </head>
-<body>
-    <div class="navbar">
-      <div class="heading">
-      <h1>Java DSA Mastery:From A-Z</h1>
-      </div> 
-      <div class="lesson">
-        <h1>ARRAYS</h1>
-      </div>
-      </div>
 
-   
-      
-     <div class="outer-card">
-        <h1 class="outer-heading">Arrays</h1>
-        <div class="inner-card">
-          <p>Imagine you have a basket, and you want to collect different types of fruits in it. To keep track of the fruits you collect, you can use an array. An array is like a special container that can hold multiple items of the same type.</p>
-          <p>Let's say you want to collect three types of fruits: apples, bananas, and oranges. You can create an array called <span class="bold-text">'fruitBasket'</span> in Java, which can hold these fruits.</p>
-          <pre><code class="language-java">String[] fruitBasket = new String[3];</code></pre>
-          <p>In this code, we declare an array called <span class="bold-text">'fruitBasket'</span> that can hold three strings (fruits). The <span class="bold-text">'new String[3]'</span> part tells Java that we want an array with three slots to store strings.</p>
-          <p>Now, let's imagine you collect the fruits one by one and put them into the <span class="bold-text">'fruitBasket'</span> array. Here's how you would do it:</p>
-          <pre><code class="language-java">fruitBasket[0] = "apple";
+<body>
+  <div class="navbar">
+    <div class="heading">
+      <h1>Java DSA Mastery:From A-Z</h1>
+    </div>
+    <div class="lesson">
+      <h1>ARRAYS</h1>
+    </div>
+  </div>
+
+
+
+  <div class="outer-card">
+    <h1 class="outer-heading">Arrays</h1>
+    <div class="inner-card">
+      <p>Imagine you have a basket, and you want to collect different types of fruits in it. To keep track of the fruits
+        you collect, you can use an array. An array is like a special container that can hold multiple items of the same
+        type.</p>
+      <p>Let's say you want to collect three types of fruits: apples, bananas, and oranges. You can create an array
+        called <span class="bold-text">'fruitBasket'</span> in Java, which can hold these fruits.</p>
+      <pre><code class="language-java">String[] fruitBasket = new String[3];</code></pre>
+      <p>In this code, we declare an array called <span class="bold-text">'fruitBasket'</span> that can hold three
+        strings (fruits). The <span class="bold-text">'new String[3]'</span> part tells Java that we want an array with
+        three slots to store strings.</p>
+      <p>Now, let's imagine you collect the fruits one by one and put them into the <span
+          class="bold-text">'fruitBasket'</span> array. Here's how you would do it:</p>
+      <pre><code class="language-java">fruitBasket[0] = "apple";
 fruitBasket[1] = "banana";
 fruitBasket[2] = "orange";</code></pre>
-<p>In this code, we assign the value <span class="bold-text">"apple"</span> to the first slot of the <span class="bold-text">'fruitBasket'</span> array, <span class="bold-text">"banana"</span> to the second slot, and <span class="bold-text">orange"</span> to the third slot.</p>
-<p>Now, you can access the fruits from the <span class="bold-text">'fruitBasket'</span> array whenever you want. For example, if you want to get the fruit in the second slot (which is the banana), you can do this:</p>
-<pre><code class="language-java">System.out.println("The second fruit in the basket is: " + fruitBasket[1]);</code></pre>
+      <p>In this code, we assign the value <span class="bold-text">"apple"</span> to the first slot of the <span
+          class="bold-text">'fruitBasket'</span> array, <span class="bold-text">"banana"</span> to the second slot, and
+        <span class="bold-text">orange"</span> to the third slot.</p>
+      <p>Now, you can access the fruits from the <span class="bold-text">'fruitBasket'</span> array whenever you want.
+        For example, if you want to get the fruit in the second slot (which is the banana), you can do this:</p>
+      <pre><code class="language-java">System.out.println("The second fruit in the basket is: " + fruitBasket[1]);</code></pre>
 
- <h2>Passing Arrays as Arguments</h2>
- <p>When you pass an array as an argument in Java, it's like sharing your fruit basket with a friend. You tell them, "Hey, I have some delicious fruits in my basket. Would you like them?" They say, "Yes, please pass me your fruit basket." So you give them your fruit basket.<br>
-   In Java, when you pass an array to a method or function, it's like sharing the contents of your array so that the method or function can use them.</p>
-   <pre><code class="language-java">public static void shareFruits(String[] basket) {
+      <h2>Passing Arrays as Arguments</h2>
+      <p>When you pass an array as an argument in Java, it's like sharing your fruit basket with a friend. You tell
+        them, "Hey, I have some delicious fruits in my basket. Would you like them?" They say, "Yes, please pass me your
+        fruit basket." So you give them your fruit basket.<br>
+        In Java, when you pass an array to a method or function, it's like sharing the contents of your array so that
+        the method or function can use them.</p>
+      <pre><code class="language-java">public static void shareFruits(String[] basket) {
     // The method receives the fruit basket as an argument
     // and can access the fruits inside it.
     for (String fruit : basket) {
@@ -66,26 +77,30 @@ fruitBasket[2] = "orange";</code></pre>
     // Call the shareFruits method and pass your fruit basket (array) to it.
     shareFruits(myBasket);
   }</code></pre>
-<h2>Linear Search</h2>
-  <p>Imagine you have a classroom with 30 students, and you're looking for a particular student named "Emma" in the class. You don't know where Emma is sitting, so you need to search through each student, one by one, until you find her.</p>
+      <h2>Linear Search</h2>
+      <p>Imagine you have a classroom with 30 students, and you're looking for a particular student named "Emma" in the
+        class. You don't know where Emma is sitting, so you need to search through each student, one by one, until you
+        find her.</p>
 
-<p>Here's how the linear search would work:</p>
+      <p>Here's how the linear search would work:</p>
 
-<ol>
-  <li>Start at the first student in the classroom.</li>
-  <li>Ask the student, "Are you Emma?"</li>
-  <li>If the student says, "Yes, I'm Emma," then you have found her!</li>
-  <li>If the student says, "No, I'm not Emma," move on to the next student and repeat steps 2 and 3.</li>
-  <li>Repeat this process until you either find Emma or you reach the last student in the classroom.</li>
-</ol>
+      <ol>
+        <li>Start at the first student in the classroom.</li>
+        <li>Ask the student, "Are you Emma?"</li>
+        <li>If the student says, "Yes, I'm Emma," then you have found her!</li>
+        <li>If the student says, "No, I'm not Emma," move on to the next student and repeat steps 2 and 3.</li>
+        <li>Repeat this process until you either find Emma or you reach the last student in the classroom.</li>
+      </ol>
 
-<p>This is an example of a linear search because you are searching through the students one by one, in a linear order, until you find the target student (Emma) or reach the end of the list.</p>
+      <p>This is an example of a linear search because you are searching through the students one by one, in a linear
+        order, until you find the target student (Emma) or reach the end of the list.</p>
 
-<p>In programming, a linear search is similar. You have a list of elements, and you iterate through the list sequentially, comparing each element to the target until you find a match or reach the end of the list.</p>
+      <p>In programming, a linear search is similar. You have a list of elements, and you iterate through the list
+        sequentially, comparing each element to the target until you find a match or reach the end of the list.</p>
 
-<p>Here's a simplified Java code snippet representing the linear search for Emma in the classroom:</p>
+      <p>Here's a simplified Java code snippet representing the linear search for Emma in the classroom:</p>
 
-<pre>
+      <pre>
 <code class="language-java">String[] students = { "Alice", "Bob", "Emma", "David" };
   // Array of student names
   
@@ -101,14 +116,36 @@ fruitBasket[2] = "orange";</code></pre>
 </pre>
 
 
-<p>In this example, the <span class="bold-text">students</span> array represents the list of students' names. The code iterates through each student's name using a <span class="bold-text">for</span> loop and compares it to the target name "Emma". If a match is found, the program prints the position where Emma is found.</p>
+      <p>In this example, the <span class="bold-text">students</span> array represents the list of students' names. The
+        code iterates through each student's name using a <span class="bold-text">for</span> loop and compares it to the
+        target name "Emma". If a match is found, the program prints the position where Emma is found.</p>
 
-<p class="remember">
-  Remember to note that when comparing strings in Java, we should use the <span class="bold-text">equals()</span> method instead of the <span class="bold-text">==</span> operator, as <span class="bold-text">==</span> compares the memory addresses of the objects rather than their contents.
-</p>
+      <p class="remember">
+        Remember to note that when comparing strings in Java, we should use the <span class="bold-text">equals()</span>
+        method instead of the <span class="bold-text">==</span> operator, as <span class="bold-text">==</span> compares
+        the memory addresses of the objects rather than their contents.
+      </p>
 
 
-        </div>     
     </div>
+  </div>
+  <!-- <footer class=""footer>
+      <ul class="accounts">
+        <li class="social"></li>
+        <li class="social"></li>
+        <li class="social"></li>
+        
+      </ul>
+
+    </footer> -->
+  <footer>
+    <div class="foo-straight"></div>
+    <div class="container">
+      <p class="p-logo">Chirag</p>
+      <p>&copy; 2023 Chirag</p>
+
+    </div>
+  </footer>
 </body>
+
 </html>
