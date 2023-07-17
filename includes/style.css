@@ -32,7 +32,7 @@ body {
   
   .lesson h1 {
     margin-right: 20px;
-    background-color: #A3B8AA;
+    background-color: #4dd0e1;
     padding: 7px;
     border-radius: 7px;
   }
@@ -70,9 +70,9 @@ body {
     
 }
 .footer {
-    background-color: #A3B8AA;
+    background-color: #4dd0e1;
     color: #777777;
-    padding: 80px;
+    padding: 40px;
     text-align: center;
   }
   
@@ -83,8 +83,26 @@ body {
   }
   
   .logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 10px;
   }
   
+  .prevnext a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #4dd0e1;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    margin:70px 0;
+  }
+  
+  .prevnext a:hover {
+    background-color: #555555;
+  }
+  .next 
+  {
+    float: right;
+  }
