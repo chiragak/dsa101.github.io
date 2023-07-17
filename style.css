@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     background-image: radial-gradient(#000000 1px, transparent 1px);
@@ -16,37 +17,35 @@ border-radius: 5px;
 margin: 40px auto 45px;
 }
 
-.lesson
-{
-    position: relative;
-max-width: 900px;
-padding: 10px 40px;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
-background-color: yellow;
-border-radius: 5px;
-margin: 30px 1%;   
-}
 
 
-header
-{
-    border-bottom: 1px solid #ccc;
+
+.navbar {
+    border-bottom: 2px solid #240115;
     background-color: #ffffff;
     position: fixed;
     width: 100%;
+    margin-bottom: 100px;
     height: 85px;
     top: 0;
     z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5%;
-    border-bottom: 2px solid #240115;
-}
-.navbar
-{
-    padding: 0%;
-}
+  }
+  
+  .heading h1 {
+    margin-left: 20px;
+  }
+  
+  .lesson h1 {
+    margin-right: 20px;
+    background-color: yellow;
+    padding: 7px;
+    border-radius: 7px;
+  }
+  
+
 .navbar img
 {
     margin-left: 50px;
@@ -116,3 +115,10 @@ padding: 15px 30px;
 .bold-text {
     font-weight: bold;
   }
+  .remember{
+    padding: 15px;
+    background-color: #ddf4ff;
+    border: 2px solid rgba(84,174,255,0.4);
+    border-radius: 6px;
+    
+}
