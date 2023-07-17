@@ -93,13 +93,14 @@ padding: 15px 30px;
 .outer-card
 {
     color: #000000;
-    position: relative;
+    position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
     margin-top: 10%;
-    margin: 10% 5%;
+    margin: 15% 5%;
     border-radius: 3px;
     background-color:#ffffff;
     padding: 4px 0%;
+    width: 90%;
     
 }
 .outer-heading
@@ -112,4 +113,6 @@ padding: 15px 30px;
     margin: 0px 40px;
     font-size: 1.5rem;
 }
-
+.bold-text {
+    font-weight: bold;
+  }
