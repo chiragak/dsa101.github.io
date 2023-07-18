@@ -13,7 +13,7 @@ body {
   }
 
 .navbar {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ccc;
     background-color: #ffffff;
     position: fixed;
     width: 100%;
@@ -33,6 +33,7 @@ body {
   .lesson h1 {
     margin-right: 20px;
     background-color: #4dd0e1;
+    color: #ffffff;
     padding: 7px;
     border-radius: 7px;
   }

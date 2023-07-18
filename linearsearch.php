@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linear search</title>
     <link href="includes/style.css" rel="stylesheet">  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+        <style>
+          .language-java {
+            border-radius: 22px;
+      
+          }
+          </style>
 </head>
 <body>
-  <?php include'header.php'?>
+<?php
+  $pageTitle = "LINEAR SEARCH";
+  include 'header.php';
+?>
 <div class="outer-card">
         
         <div class="inner-card">
@@ -45,9 +58,7 @@
           System.out.println("Emma found sitting at position: " + i);
           // Print the position where Emma is found
         }
-      }
-    </code>
-    </pre>
+      }</code></pre>
     
     
           <p>In this example, the <span class="bold-text">students</span> array represents the list of students' names. The
@@ -59,6 +70,35 @@
             method instead of the <span class="bold-text">==</span> operator, as <span class="bold-text">==</span> compares
             the memory addresses of the objects rather than their contents.
           </p>
+
+          <h2>Linear Search</h2>
+          <p>
+    1. Start by initializing a variable called <span class="bold-text">"largest"</span> with the smallest possible integer value.<br>
+    2. Iterate through each element in the array.<br>
+    3. Compare the current element with the current largest value.<br>
+    4. If the current element is larger than the current largest value, update the value of <span class="bold-text">"largest"</span> to be the current element.<br>
+    5. Repeat steps 3 and 4 for all elements in the array.<br>
+    6. After iterating through all elements, <span class="bold-text">"largest"</span> will hold the largest value found.<br>
+    7. Print the value of <span class="bold-text">"largest"</span> to display the result.
+</p>
+
+
+          <pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        int numbers[] = {1, 5, 9, 2, 6, 11, 0};
+        int largest = Integer.MIN_VALUE; // Initialize largest with the minimum possible value
+        
+        for (int i = 0; i < numbers.length; i++) {
+            // Check if current element is greater than the current largest value
+            if (numbers[i] > largest) {
+                largest = numbers[i]; // Update largest if a larger value is found
+            }
+        }
+        
+        System.out.println("Largest value is: " + largest);
+    }
+}</code></pre>
+
 
     </div>
     </div>

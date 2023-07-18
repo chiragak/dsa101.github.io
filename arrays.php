@@ -16,7 +16,7 @@
       
           }
 
-          
+     
           
         </style>
       
@@ -29,9 +29,14 @@
     
  
 <body>
+
 <?php
-include 'header.php';
+  $pageTitle = "ARRAYS";
+  include 'header.php';
 ?>
+
+
+
 
   
     <div class="outer-card">
