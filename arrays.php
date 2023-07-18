@@ -5,8 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/includes/style.css">
-      
+        
+
+        <link href="includes/style.css" rel="stylesheet">      
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
@@ -15,6 +16,8 @@
             border-radius: 22px;
       
           }
+
+          
           
         </style>
       
@@ -27,16 +30,10 @@
     
  
 <body>
-    <header>
-    <div class="navbar">
-        <div class="heading">
-          <h1>Java DSA Mastery:From A-Z</h1>
-        </div>
-        <div class="lesson">
-          <h1>ARRAYS</h1>
-        </div>
-      </div>
-    </header>
+<?php
+include 'header.php';
+?>
+
   
     <div class="outer-card">
         <h1 class="outer-heading">Arrays</h1>
@@ -86,22 +83,17 @@
 
           <div class="prevnext">
             <a href="">← Previous</a>
-            <a class="next" href="">Next →</a>
+            <a class="next" href="linearsearch.php">Next →</a>
           </div>
     
     
         </div>
       </div>
 
-  
-      <footer class="footer">
-        <div class="logo-container">
-          <img src="/images/Email.png" alt="Email logo" class="logo">
-          <img src="/images/Github.png" alt="Git logo" class="logo">
-          <img src="/images/Linkedin.png" alt="LinkedIn logo" class="logo">
-        </div>
-        <p>© 2023 Java DSA Mastery. All rights reserved.</p>
-      </footer>
+  <?php
+  include'footer.php';
+  ?>
+      
       
 </body>
 </html>

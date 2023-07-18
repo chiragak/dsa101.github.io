@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linear search</title>
-    <link href="/includes/style.css" rel="stylesheet">
+    <link href="includes/style.css" rel="stylesheet">  
 </head>
 <body>
+  <?php include'header.php'?>
+<div class="outer-card">
+        
+        <div class="inner-card">
 <h2>Linear Search</h2>
           <p>Imagine you have a classroom with 30 students, and you're looking for a particular student named "Emma" in the
             class. You don't know where Emma is sitting, so you need to search through each student, one by one, until you
@@ -55,5 +59,9 @@
             method instead of the <span class="bold-text">==</span> operator, as <span class="bold-text">==</span> compares
             the memory addresses of the objects rather than their contents.
           </p>
+
+    </div>
+    </div>
+    <?php include'footer.php'?>
 </body>
 </html>
