@@ -24,7 +24,7 @@
 <div class="outer-card">
         
         <div class="inner-card">
-<h2>Linear Search</h2>
+<h2>ARRAYS</h2>
           <p>Imagine you have a classroom with 30 students, and you're looking for a particular student named "Emma" in the
             class. You don't know where Emma is sitting, so you need to search through each student, one by one, until you
             find her.</p>
@@ -71,7 +71,7 @@
             the memory addresses of the objects rather than their contents.
           </p>
 
-          <h2>Linear Search</h2>
+          <h2>Largest in a array</h2>
           <p>
     1. Start by initializing a variable called <span class="bold-text">"largest"</span> with the smallest possible integer value.<br>
     2. Iterate through each element in the array.<br>
