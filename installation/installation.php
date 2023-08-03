@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binary search</title>
-    <link href="includes/style.css" rel="stylesheet">  
+    <title>Installation</title>
+    <link href="../includes/style.css" rel="stylesheet">  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
@@ -19,7 +19,7 @@
 <body>
 <?php
   $pageTitle = "ARRAYS";
-  include 'header.php';?>
+  include '../header.php';?>
 <div class="outer-card">
         
         <div class="inner-card">
@@ -91,11 +91,11 @@ public class Main {
 
 <div class="prevnext">
             <a href="">← Previous</a>
-            <a class="next" href="linearsearch.php">Next →</a>
+            <a class="next" href="reverse.php">Next →</a>
           </div>
 
     </div>
     </div>
-    <?php include'footer.php'?>
+    <?php include'../footer.php'?>
 </body>
 </html>

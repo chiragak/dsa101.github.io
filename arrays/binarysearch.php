@@ -91,7 +91,7 @@ public class Main {
 
 <div class="prevnext">
             <a href="">← Previous</a>
-            <a class="next" href="linearsearch.php">Next →</a>
+            <a class="next" href="reverse.php">Next →</a>
           </div>
 
     </div>
