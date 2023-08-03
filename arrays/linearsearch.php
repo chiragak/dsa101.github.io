@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linear search</title>
-    <link href="includes/style.css" rel="stylesheet">  
+    <link href="../assets/css/style.css" rel="stylesheet">  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
@@ -19,7 +19,7 @@
 <body>
 <?php
   $pageTitle = "ARRAYS";
-  include 'header.php';
+  include '../includes/header.php';
 ?>
 <div class="outer-card">
         
@@ -105,6 +105,6 @@
 
     </div>
     </div>
-    <?php include'footer.php'?>
+    <?php include'../includes/footer.php'?>
 </body>
 </html>
