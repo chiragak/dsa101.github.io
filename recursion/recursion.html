@@ -1,0 +1,84 @@
+<!-- arrays 1 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/style.css">
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-java.min.js"></script>
+        <style>
+          .language-java {
+            border-radius: 22px;
+      
+          }
+
+     
+          
+        </style>
+      
+        <title>Problem Soving in Java</title>
+      
+      </head>
+<head>
+
+    
+    
+ 
+<body>
+    <header>
+        <div class="navbar">
+          <div class="heading">
+            <h1>Java DSA Mastery: From A-Z</h1>
+          </div>
+          <div class="lesson" id="lessonTitle">
+            <h1>RECURSION</h1>
+          </div>
+        </div>
+      </header>
+
+
+
+
+  
+    <div class="outer-card">
+        <h1 class="outer-heading">RECURSION</h1>
+        <div class="inner-card">
+          <p>Recursion is a programming technique where a function calls itself directly or indirectly.</p>
+          <p>It is used to solve problems that can be broken down into simpler subproblems of the same type.</p>
+          <p>A recursive function has a <span class="bold-text">base case </span>(termination condition) that stops the recursion, and a <span class="bold-text">recursive step</span> that calls the function again to advance towards the base case.</p>
+          <!-- <p>Let's say you want to collect three types of fruits: apples, bananas, and oranges. You can create an array
+            called <span class="bold-text">'fruitBasket'</span> in Java, which can hold these fruits.</p> -->
+          <pre><code class="language-java">int factorial(int n) {
+            if (n == 1) // base case
+               return 1; 
+          
+            return n * factorial(n-1); // recursive call
+          }</code></pre>
+          <p>Recursion follows a top-down approach - divide the problem into subproblems and apply recursion to solve them.</p>
+          <p>It uses a stack to keep track of function calls. Stack helps unwind and build the solution step-by-step.</p>
+          
+
+          <div class="prevnext">
+            <a href="">← Previous</a>
+            <a class="next" href="linearsearch.php">Next →</a>
+          </div>
+    
+    
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="logo-container">
+          <img src="../images/Email.png" alt="Email logo" class="logo">
+          <img src="../images/Github.png" alt="Git logo" class="logo">
+          <img src="../images/Linkedin.png" alt="LinkedIn logo" class="logo">
+        </div>
+        <p>© 2023 Java DSA Mastery. All rights reserved.</p>
+ </footer>
+      
+</body>
+</html>
