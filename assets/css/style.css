@@ -89,6 +89,8 @@ body {
     margin: 0 10px;
   }
   
+
+  
   .prevnext a {
     display: inline-block;
     padding: 10px 20px;
@@ -97,7 +99,6 @@ body {
     color: #ffffff;
     border-radius: 10px;
     text-decoration: none;
-    margin:70px 0;
   }
   
   .prevnext a:hover {
@@ -117,13 +118,23 @@ body {
         /* font-size: 2em; */
         display: none;
     }
-    .about .contact
+
+    .outer-card
     {
-      font-size: 2vh;
-    }
-    .outer-card{
       margin-top: 35%;
     }
-
+    .prevnext {
+      /* font-size: 2em;
+      margin: 70px 0; */
+    }
+    body 
+    {
+      font-size: 12px;
+    }
+    .inner-card
+    {
+      font-size: 1.2rem;
+    }
+    
 }
 
