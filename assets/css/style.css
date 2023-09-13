@@ -134,12 +134,14 @@ body {
     .inner-card
     {
       font-size: 1.2rem;
+      margin: 0px 15px;
     }
     .prevnext a {
 
       padding: 8px 10px;
       margin: 0px;
     }
+
     
 }
 
