@@ -121,7 +121,8 @@ body {
 
     .outer-card
     {
-      margin-top: 35%;
+      margin-top: 30%;
+      padding-bottom: 10%;
     }
     .prevnext {
       /* font-size: 2em;
