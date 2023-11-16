@@ -168,7 +168,7 @@ border-radius: 75px;
     margin: 0;
 }
 .author p{
-  margin: 0 10% 0 2%;
+  margin: 0 8% 0 2%;
 
   display: flex;
   align-items: center;
@@ -180,6 +180,51 @@ border-radius: 75px;
   /* background-color: #ffffff; */
   margin: 0;
 }
+
+.lesson-content
+{
+  line-height: 1.5;
+}
+ol.sections-name {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  width: 98%;
+}
+
+ol.sections-name .lesson-details {
+  background: #fff;
+  display: flex;
+  flex: 1 1;
+  min-width: 600px;
+  position: relative;
+}
+ol.sections-name .lesson-preface {
+  align-items: center;
+  background: #93aca7;
+  color: #1e3f57;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  padding: 25px;
+  position: relative;
+  width: 30%;
+}
+
+.lesson-text {
+  min-height: 200px;
+  padding: 25px 5px 25px 35px;
+  width: 100%;
+}
+
+.lesson-details h3 {
+  border-bottom: 1px solid #333;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar .heading {
