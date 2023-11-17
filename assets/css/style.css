@@ -225,6 +225,17 @@ border-radius: 75px;
 
 
 }
+
+
+.lesson-preface:before {
+  color:#1e3f57;
+    content: counter(my-awesome-counter);
+    font-size: 20px;
+    font-weight: 700;
+    left: 5px;
+    position: absolute;
+    top: 0;
+}
 @media screen and (max-width: 768px) {
 
     .navbar .heading {
