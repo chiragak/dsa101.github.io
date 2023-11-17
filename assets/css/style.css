@@ -174,68 +174,56 @@ border-radius: 75px;
   align-items: center;
 }
 
-.lesson-title {
-  font-size: 20px;
-  padding: 15px 30px;
-  /* background-color: #ffffff; */
-  margin: 0;
-}
 
+
+.section-name
+{
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+  counter-increment: my-awesome-counter;
+}
 .lesson-content
 {
   line-height: 1.5;
-}
-ol.sections-name {
-  counter-reset: my-awesome-counter;
-  list-style: none;
-  width: 98%;
-}
+  margin: 0;
+  width: 80%;
+  margin: 0 auto; /* Add this line to center align */
 
-ol.sections-name .lesson-details {
-  background: #fff;
+}
+.lesson-details
+{
   display: flex;
-  flex: 1 1;
+  background-color: #ffffff;
   min-width: 600px;
   position: relative;
 }
-ol.sections-name .lesson-preface {
+.lesson-preface
+{
   align-items: center;
-  background: #93aca7;
-  color: #1e3f57;
+  background-color: #88882f;
+  color: #4dd0e1;
   display: flex;
-  font-size: 30px;
   justify-content: center;
   padding: 25px;
-  position: relative;
   width: 30%;
-}
 
-.lesson-text {
+
+}
+.lesson-text
+{
   min-height: 200px;
   padding: 25px 5px 25px 35px;
-  width: 100%;
+  width: 100% ;
 }
-
-.lesson-details h3 {
+.lesson-details h3
+{
   border-bottom: 1px solid #333;
   display: inline-block;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 10px;
-}
 
 
-
-
-ol.sections-name .lesson-preface:before {
-  color: #1e3f57;
-  content: counter(my-awesome-counter);
-  font-size: 20px;
-  font-weight: 700;
-  left: 5px;
-  position: absolute;
-  top: 0;
 }
 @media screen and (max-width: 768px) {
 
