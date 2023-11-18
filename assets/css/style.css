@@ -135,6 +135,7 @@ body {
   align-items: center;
   height: 85%;
   margin-left: 5%;
+  filter: drop-shadow(5px 5px 10px #555);
 
 }
 
