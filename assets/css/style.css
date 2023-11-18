@@ -262,7 +262,10 @@ border-radius: 75px;
 
 
 }
-
+.lesson-text li
+{
+  list-style-type:decimal;
+}
 
 .lesson-preface:before {
   color:#1e3f57;
