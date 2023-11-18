@@ -229,7 +229,7 @@ border-radius: 75px;
 {
   display: flex;
   background-color: #ffffff;
-  min-width: 600px;
+  /* min-width: 600px; */
   position: relative;
 }
 .lesson-preface
