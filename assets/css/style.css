@@ -5,8 +5,12 @@ body {
     background-size: 32px 32px;
     background-color: #ffffff;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
         footer {
+          margin-top: auto;
     background-color: #ddd;
     padding: 10px;
     box-sizing: border-box;
