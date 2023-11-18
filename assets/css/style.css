@@ -190,6 +190,7 @@ body {
   margin: 25px;
   display: flex;
   justify-content: flex-end;
+  
 }
 .author img {
 border-radius: 75px;
@@ -197,6 +198,9 @@ border-radius: 75px;
     overflow: hidden;
     width: 75px;
     margin: 0;
+    filter: drop-shadow(5px 5px 10px #555);
+    border-radius: 50%;
+    transition: filter 0.3s ease-in-out;
 }
 .author p{
   margin: 0 8% 0 2%;
