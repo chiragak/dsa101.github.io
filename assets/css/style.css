@@ -74,7 +74,7 @@ body {
     
 }
 .footer {
-    background-color: #A6A2A2;
+    background-color: #F49CBB;
     color: #777777;
     padding: 40px;
     text-align: center;
@@ -126,7 +126,7 @@ body {
   align-items: center;
   width: 100%;
   height: 400px;
-  background-color: #779282;
+  background-color: #F7B6CC;
 }
 .courseicon {
   display: flex;
