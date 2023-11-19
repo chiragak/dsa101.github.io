@@ -121,6 +121,10 @@ body {
   
 
 }
+.lesson-title
+{
+  margin-left: 10%;
+}
 .main {
   display: flex;
   align-items: center;
@@ -233,9 +237,13 @@ border-radius: 75px;
 {
   display: flex;
   background-color: #ffffff;
+  height: 250px; */
   /* min-width: 600px; */
   position: relative;
+
+  
 }
+
 .lesson-preface
 {
   align-items: center;
@@ -251,23 +259,26 @@ border-radius: 75px;
 .lesson-text
 {
   min-height: 200px;
-  padding: 25px 5px 25px 35px;
+  padding: 0px 5px 25px 35px;
   width: 100% ;
 }
+
 .lesson-details h3
 {
   border-bottom: 1px solid #333;
   display: inline-block;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 10px;
+  
 
 
 }
 .lesson-text li
 {
   list-style-type:decimal;
+  font-size: 23px;
 }
 
 .lesson-preface:before {
