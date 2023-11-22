@@ -72,12 +72,7 @@ body {
     width: 90%;
     
 }
-.footer {
-    background-color: #F7B6CC;
-    color: #777777;
-    padding: 40px;
-    text-align: center;
-  }
+
   
   .logo-container {
     display: flex;
@@ -129,7 +124,14 @@ body {
   align-items: center;
   width: 100%;
   height: 400px;
-  background-color: #082032;
+  background-color: #22092C;
+}
+
+.footer {
+  background-color: #18122B;
+  color: #777777;
+  padding: 40px;
+  text-align: center;
 }
 .courseicon {
   display: flex;
