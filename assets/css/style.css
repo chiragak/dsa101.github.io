@@ -174,6 +174,7 @@ margin-top: 50px;
 font-size: 24px;
 font-weight: bold;
 margin-right: 10%;
+color:#E0CA3C ;
 }
 .courseinfo p {
 margin-right: 10%;
@@ -231,8 +232,7 @@ position: relative;
 .lesson-preface
 {
 align-items: center;
-background-color: #88882f;
-background-color: #A1C6EA;
+background-color: #BBBDF6;
 color: #4dd0e1;
 display: flex;
 justify-content: center;
