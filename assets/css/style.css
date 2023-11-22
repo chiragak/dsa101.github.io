@@ -37,8 +37,8 @@ body {
 .lesson h1 {
 
   margin-right: 20px;
-  background-color: #4dd0e1;
-  color: #ffffff;
+  background-color: #BBBDF6;
+  color: #615055;
   padding: 7px;
   border-radius: 7px;
 }
@@ -96,14 +96,15 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 0 5px;
-  background-color: #4dd0e1;
-  color: #ffffff;
+  background-color: #BBBDF6;
+  color: #000000;
   border-radius: 10px;
   text-decoration: none;
 }
 
 .prevnext a:hover {
   background-color: #555555;
+  color: #ffffff;
 }
 .next 
 {
@@ -154,24 +155,7 @@ color: #333;
 text-align: right;
 margin-bottom: 5px;
 }
-/* .courseicon {
 
-height: 100%;
-}
-.courseinfo {
-height: 100%;
-width: 100%;
-background-color: #4dd0e1;
-font-family: Arial, sans-serif;
-font-size: 18px;
-color: #333;
-text-align: right;
-margin-bottom: 5px;
-}
-.courseicon img {
-max-width: 100%;
-height: auto;
-} */
 .courseinfo h1 {
 margin-top: 50px;
 font-size: 24px;
