@@ -37,6 +37,7 @@ body {
 .lesson h1 {
 
   margin-right: 20px;
+  
   background-color: #BBBDF6;
   color: #615055;
   padding: 7px;
@@ -292,5 +293,5 @@ color:#1e3f57;
     {
       margin-left: 0;
     }
-  
-}
+
+  }
