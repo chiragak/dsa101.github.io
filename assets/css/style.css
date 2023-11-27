@@ -293,5 +293,9 @@ color:#1e3f57;
     {
       margin-left: 0;
     }
+    .image-explanation
+    {
+      height: 150px;
+    }
 
   }
