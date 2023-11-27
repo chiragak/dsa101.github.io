@@ -38,19 +38,25 @@
     <div class="outer-card">
         <h1 class="outer-heading">VARIABLES</h1>
         <div class="inner-card">
-          <p>Variables are used to store data in a program. They can hold different types of data, such as integers, decimals, and strings.</p>
-          <p>Here is an example of how to declare and initialize a variable in Java:</p>
-          <pre><code class="language-java">int age = 25;</code></pre>
-          <p>You can also declare a variable without initializing it:</p>
-          <pre><code class="language-java">int age;</code></pre>
-          <p>Then, you can assign a value to it later:</p>
-          <pre><code class="language-java">age = 25;</code></pre>
-          <p>It is important to note that variables have a scope, which determines where they can be accessed in a program. For example, a variable declared inside a method can only be accessed within that method.</p>
-          <p>Variables can also be used in expressions:</p>
-          <pre><code class="language-java">int x = 5;
-          int y = 10;
-          int sum = x + y;</code></pre>
-          <p>In this example, the variable 'sum' is assigned the value of the sum of 'x' and 'y'.</p>
+          <p>What are variables? Variables are like containers that store values that can change. We need to give each variable a descriptive name so we know what kind of value it holds.</p>
+          <p>For example, let's say we want to create variables to store the dimensions of a rectangle - the length and the width.</p>
+          <img class="image-explanation" src="images/rectangle.svg" alt="" height="200px">
+          <p>We would declare two variables like this:</p>
+          
+          <pre><code class="language-java">int l;
+int w;</code></pre>
+          <p>The int means that these variables will hold integer numbers. Then we give descriptive variable names - length and width.</p>
+          <p>Before we can calculate the area, we need to store the actual length and width values in these variables. Let's say the length of our rectangle is 2 units, and the width is 8 units.</p>
+          <p>We would assign values to the variables:</p>
+          <pre><code class="language-java">l = 2;
+w = 8;</code></pre>
+          <p>Now the length variable contains the number 5, and the width variable contains the number 3.</p>
+          <img class="image-explanation" src="images/memory.svg" alt="" height="200px">
+          <p>To calculate area, we need to multiply length * width. So we can create another variable area to store the result:</p>
+          <pre><code class="language-java">int area;
+area = l * w;
+System.out.println(area)</code></pre>
+          <p>Using variables allows us to easily calculate the rectangle's area for any length and width!</p>
             
           <div class="prevnext">
             <a href="intro.html">← Previous</a>
@@ -62,9 +68,9 @@
 
       <footer class="footer">
         <div class="logo-container">
-          <img src="/../images/Email.svg" alt="Email logo" class="logo">
-          <img src="/../images/Github.png" alt="Git logo" class="logo">
-          <img src="/../images/Linkedin.png" alt="LinkedIn logo" class="logo">
+          <img src="../images/Email.png" alt="Email logo" class="logo">
+          <img src="../images/Github.png" alt="Git logo" class="logo">
+          <img src="../images/Linkedin.png" alt="LinkedIn logo" class="logo">
         </div>
         <p>© 2023 Java DSA Mastery. All rights reserved.</p>
  </footer>
