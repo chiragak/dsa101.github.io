@@ -32,6 +32,11 @@ body {
 .heading h1 {
   margin-left: 20px;
 }
+.heading img {
+  padding-left: 10%;
+  max-width: 200px;
+  height: auto;
+}
 
 .lesson h1 {
 
