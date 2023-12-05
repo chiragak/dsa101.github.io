@@ -51,7 +51,7 @@
           <pre><code class="language-java">double price = 10.99;</code></pre>
           <p>Other data types include <span class="bold-text">boolean</span>, which can hold either true or false, and <span class="bold-text">char</span>, which can hold a single character.</p>
           <p>It is important to choose the appropriate data type for your variable, as this can affect the amount of memory used by your program and the accuracy of your calculations.</p>
-          <img class="image-explanation datatypesimg" src="images/datatypes.svg" alt="" width="50%"  >
+          <img class="image-explanation datatypesimg" src="images/datatypes.svg" alt="" width="50%">
 
           <table class="datatype-table">
             <tr>
@@ -101,6 +101,35 @@
             </tr>
           </table>
 
+          <h2 class="side-heading">INPUT</h2>
+          <p>In Java, we use the Scanner class to take inputs. Here's how you can take inputs for different data types:</p>
+          <pre><code class="language-java">import java.util.Scanner;  // Import the Scanner class
+public class MyClass 
+ {
+    public static void main(String[] args) 
+     {
+        Scanner sc = new Scanner(System.in);  // Create a Scanner object
+
+                System.out.println("Enter an integer");
+                int a = sc.nextInt();  // Read user input
+     }
+ }</code></pre>
+          <p>Don't worry if you don't understand the entire code right now. You will get to know every bit of it later in the course.</p>
+
+          <h2 class="side-heading">COMMENTS</h2>
+          <p>Comments in Java are used for several reasons:</p>
+          <ul>
+            <li>They allow programmers to leave notes for themselves and others about what the code is doing. This is especially useful when working on a team or when you might need to revisit your code in the future.</li>
+            <li>Comments can be used to temporarily disable a part of the code during debugging.</li>
+          </ul>
+          <p>In Java, there are two types of comments:</p>
+          <ul>
+            <li><strong>Single-line comments:</strong> These are used for brief notes or to temporarily disable a line of code. They start with two forward slashes (//).</li>
+            <pre><code class="language-java">            // This is a single-line comment</code></pre>
+            <li><strong>Multi-line comments:</strong> These are used for longer descriptions or to temporarily disable multiple lines of code. They start with a forward slash and an asterisk (/*), and end with an asterisk and a forward slash (*/).</li>
+            <pre><code class="language-java">            /* This is a
+            multi-line comment */</code></pre>
+          </ul>
           <div class="prevnext">
             <a href="variables.html">← Previous</a>
             <a class="next" href="linearsearch.php">Next →</a>
