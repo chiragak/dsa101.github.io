@@ -261,6 +261,27 @@ color:#1e3f57;
   position: absolute;
   top: 0;
 }
+
+.datatype-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.datatype-table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
 @media screen and (max-width: 768px) {
 
   .outer-card
@@ -301,6 +322,10 @@ color:#1e3f57;
     .datatypesimg
     {
       width: 100%;
+      padding: 0;
     }
-
+    .datatype-table, th, td {
+      font-size: 14px;
+      padding: 10px;
+    }
   }
