@@ -280,6 +280,10 @@ th {
   background-color: #f2f2f2;
 }
 
+.note {
+  background-color: rgba(0, 0, 255, 0.5); /* Blue background with 50% opacity */
+  border: 2px solid blue; /* Blue border */
+}
 
 
 @media screen and (max-width: 768px) {
