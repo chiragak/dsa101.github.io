@@ -281,8 +281,13 @@ th {
 }
 
 .note {
-  background-color: rgba(0, 0, 255, 0.5); /* Blue background with 50% opacity */
-  border: 2px solid blue; /* Blue border */
+  border: 2px solid #7CB9E8; /* Blue border */
+  border-radius:8px;
+  padding:0px;
+  padding: 1.2%;
+  background-color: rgba(124, 185, 232, 0.2); /* #7CB9E8 with opacity 0.5 */
+  color: #2586D0;
+  margin: 2% 0;
 }
 
 
