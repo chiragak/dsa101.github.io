@@ -332,6 +332,10 @@ th {
     {
       margin-left: 0;
     }
+    .lesson-content
+    {
+      width: 92%;
+    }
     .image-explanation
     {
       height: 150px;
