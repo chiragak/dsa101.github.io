@@ -289,8 +289,16 @@ th {
   color: #2586D0;
   margin: 2% 0;
 }
+.note h3{
+  margin: 0;
+  text-decoration: underline;
+}
 
+.noteicon
+{
 
+  margin-right: 10px;
+}
 @media screen and (max-width: 768px) {
 
   .outer-card
@@ -328,7 +336,7 @@ th {
     {
       height: 150px;
     }
-    .datatypesimg
+    .datatypesimg 
     {
       width: 100%;
       height: auto;
@@ -351,5 +359,11 @@ th {
     }
     .lesson-preface:before {
       font-size: 16px;
+    }
+
+    .var_datatypeimage
+    {
+      width: 100%;
+      height: auto;
     }
   }
