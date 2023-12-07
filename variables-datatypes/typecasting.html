@@ -44,7 +44,7 @@
            <li>Widening Type Casting</li>
            <li>Narrowing Type Casting</li>
          </ol>
-         <img src="images/Typecasting.svg" alt="" width="70%">
+         <img class="design" src="images/Typecasting.svg" alt="" width="70%">
          <h2>Widening Type Casting</h2>
          <p>Widening type casting is when we convert a smaller data type to a larger data type. In this process, we don't lose any information.</p>
          <p>For example, converting an int to a float.</p>
@@ -70,10 +70,12 @@ System.out.println(myInt); // Outputs 9</code></pre>
     <p>Let's break it down:</p>
     <ul>
       <li><strong>JDK (Java Development Kit):</strong> This is a software development environment used for developing Java applications. It includes the JRE, an interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (javadoc) and other tools needed in Java development.</li>
+      <br>
       <li><strong>JRE (Java Runtime Environment):</strong> It provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files.</li>
+      <br>
       <li><strong>JVM (Java Virtual Machine):</strong> This is what actually runs the Java programs. It takes the bytecode and translates it into machine code. Bytecode is a middle language between Java and the machine language. The JVM is also platform-dependent and provides core Java functions like memory management, garbage collection, security, etc.</li>
     </ul>
-    <img  src="images/jdkexplain.svg" alt="" width="70%">
+    <img class="design"  src="images/jdkexplain.svg" alt="" width="70%">
     <h2>How is a .java file converted to machine level code?</h2>
     <p>When a .java file is compiled, it is converted into a .class file by the Java compiler (javac). This .class file contains bytecode, which is a platform-independent code that can be executed by any machine that has a Java Runtime Environment (JRE).</p>
     <p>The Java Virtual Machine (JVM) is a part of the JRE. When you run the Java program, the JVM is responsible for converting the bytecode into machine-specific code. This process is known as interpretation. The JVM interprets the bytecode line by line and converts it into machine code which is then executed by the machine.</p>

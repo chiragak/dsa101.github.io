@@ -340,17 +340,11 @@ th {
     {
       height: 150px;
     }
-    .datatypesimg 
-    {
-      width: 100%;
-      height: auto;
-    }
+    
     .datatype-table, th, td {
       font-size: 14px;
       padding: 10px;
     }
-
-  
     .lesson-text {
       padding: 15px;
       width: 100%;
@@ -365,9 +359,13 @@ th {
       font-size: 16px;
     }
 
-    .var_datatypeimage
+    .design
     {
       width: 100%;
       height: auto;
+    }
+    .inner-card
+    {
+      font-size: 1rem;
     }
   }
